@@ -3,18 +3,18 @@ import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 
 function Photo() {
   const images = [
-    { src: '/images/1200px-haas-in-het-grasjpg.webp', alt: 'Зайці в траві' },
-    { src: '/images/1200px-hasebeioberwerbejpg.webp', alt: 'Зайці в полі' },
-    { src: '/images/european-hare-6121jpg.webp', alt: 'Європейський заєць' },
-    { src: '/images/fFKuESpf7VTCGBNPscig.webp', alt: 'Зайці на лузі' },
-    { src: '/images/halljnes.webp', alt: 'Зайці в лісі' },
-    { src: '/images/zu6YRoYqGYVyExZ54dDT.webp', alt: 'Зайці на лузі' }
+    { src: '/images/meerkat-photo3.jpg', alt: 'Сурикати на варті' },
+    { src: '/images/nature-photo6.jpg', alt: 'Сімя сурикатів' },
+    { src: '/images/meerkat-photo2.jpg', alt: 'Сурикати в пустелі' },
+    { src: '/images/meerkat-photo1.jpg', alt: 'Сурикати біля нори' },
+    { src: '/images/meerkat-photo4.jpg', alt: 'Сурикати у природі' },
+    { src: '/images/meerkat-photo5.jpg', alt: 'Сурикати спостерігають' }
   ];
 
   return (
     <main className="container px-4 py-4 flex-grow-1">
       <article>
-        <h2 className="h2 text-success mb-4">Фотогалерея зайців</h2>
+        <h2 className="h2 text-success mb-4">Фотогалерея сурикатів</h2>
         <div id="carouselExampleIndicators" className="carousel slide" data-bs-ride="carousel">
           <div className="carousel-indicators">
             {images.map((_, index) => (
